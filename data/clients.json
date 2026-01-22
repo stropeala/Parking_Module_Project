@@ -1,82 +1,82 @@
 [
   {
     "ID": 1,
-    "Nume": "CLIENT",
-    "Prenume": "1",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Frank",
+    "Prenume": "Fleming",
+    "Nr.Telefon": "(810) 011-4394",
+    "Oras": "Port Huron, MI",
+    "Pariah": false
   },
   {
     "ID": 2,
-    "Nume": "CLIENT",
-    "Prenume": "2",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Keith",
+    "Prenume": "Wood",
+    "Nr.Telefon": "(475) 651-6147",
+    "Oras": "Bridgeport, CT",
+    "Pariah": false
   },
   {
     "ID": 3,
-    "Nume": "CLIENT",
-    "Prenume": "3",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Marty",
+    "Prenume": "Koch",
+    "Nr.Telefon": "(681) 518-7418",
+    "Oras": "Charleston, WV",
+    "Pariah": false
   },
   {
     "ID": 4,
-    "Nume": "CLIENT",
-    "Prenume": "4",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Billie",
+    "Prenume": "Forbes",
+    "Nr.Telefon": "(570) 542-1228",
+    "Oras": "Scranton, PA",
+    "Pariah": false
   },
   {
     "ID": 5,
-    "Nume": "CLIENT",
-    "Prenume": "5",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Deloris",
+    "Prenume": "White",
+    "Nr.Telefon": "(386) 167-3182",
+    "Oras": "Palm Coast, FL",
+    "Pariah": false
   },
   {
     "ID": 6,
-    "Nume": "CLIENT",
-    "Prenume": "6",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Sherwood",
+    "Prenume": "Holder",
+    "Nr.Telefon": "(574) 347-8989",
+    "Oras": "Elkhart, IN",
+    "Pariah": false
   },
   {
     "ID": 7,
-    "Nume": "CLIENT",
-    "Prenume": "7",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Tobias",
+    "Prenume": "Snyder",
+    "Nr.Telefon": "(502) 947-8597",
+    "Oras": "Louisville, KY",
+    "Pariah": false
   },
   {
     "ID": 8,
-    "Nume": "CLIENT",
-    "Prenume": "8",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Mattie",
+    "Prenume": "Garcia",
+    "Nr.Telefon": "(270) 921-6744",
+    "Oras": "Henderson, KY",
+    "Pariah": false
   },
   {
     "ID": 9,
-    "Nume": "CLIENT",
-    "Prenume": "9",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Hugh",
+    "Prenume": "Maxwell",
+    "Nr.Telefon": "(530) 532-3263",
+    "Oras": "Davis, CA",
+    "Pariah": false
   },
   {
     "ID": 10,
-    "Nume": "CLIENT",
-    "Prenume": "10",
-    "Nr.Telefon": "0770 420 690",
-    "Oras": "ORAS",
-    "Pariah": true
+    "Nume": "Diana",
+    "Prenume": "Acosta",
+    "Nr.Telefon": "(724) 410-6441",
+    "Oras": "Mccandless, PA",
+    "Pariah": false
   }
 ]
