@@ -1,18 +1,18 @@
 [
-  {
-    "ID": 1,
-    "Nume": "Frank",
-    "Prenume": "Fleming",
-    "Nr.Telefon": "(810) 011-4394",
-    "Oras": "Port Huron, MI",
-    "Pariah": false
-  },
-  {
-    "ID": 2,
-    "Nume": "Keith",
-    "Prenume": "Wood",
-    "Nr.Telefon": "(475) 651-6147",
-    "Oras": "Bridgeport, CT",
-    "Pariah": false
-  }
+    {
+        "ID": 1,
+        "Nume": "Frank",
+        "Prenume": "Fleming",
+        "Nr.Telefon": "(810) 011-4394",
+        "Oras": "Port Huron, MI",
+        "Pariah": false
+    },
+    {
+        "ID": 2,
+        "Nume": "Keith",
+        "Prenume": "Wood",
+        "Nr.Telefon": "(475) 651-6147",
+        "Oras": "Bridgeport, CT",
+        "Pariah": false
+    }
 ]
