@@ -27,8 +27,8 @@ def db_draft(filepath, id):
         # indent=4 for better farmat
         json.dump(db_start_dict, file, indent=4)
 
-    ore = random.randint(1, 24 * 5)
-    if 1 <= ore <= 2:
+    ore = random.randint(1, 10)
+    if 1 <= ore <= 3:
         db_filepath_u2hours = f"{pathlib.Path(filepath).parent.resolve()}/clients_timer_under_2hours_draft.json"
         if os.path.isfile(db_filepath_u2hours) is True:
             with open(db_filepath_u2hours, "r") as file:
@@ -66,7 +66,7 @@ def db_draft(filepath, id):
             # indent=4 for better farmat
             json.dump(client_db, file, indent=4)
 
-    elif 2 < ore < 24 * 3:
+    elif 3 < ore < 7:
         db_filepath_2hours = f"{pathlib.Path(filepath).parent.resolve()}/clients_timer_above_2hours_draft.json"
         if os.path.isfile(db_filepath_2hours) is True:
             with open(db_filepath_2hours, "r") as file:
@@ -104,7 +104,7 @@ def db_draft(filepath, id):
             # indent=4 for better farmat
             json.dump(client_db, file, indent=4)
 
-    elif 24 * 3 <= ore:
+    elif 7 <= ore:
         db_filepath_3days = f"{pathlib.Path(filepath).parent.resolve()}/clients_timer_above_3days_draft.json"
         if os.path.isfile(db_filepath_3days) is True:
             with open(db_filepath_3days, "r") as file:
