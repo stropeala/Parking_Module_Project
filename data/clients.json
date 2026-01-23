@@ -13,7 +13,7 @@
     "Prenume": "Wood",
     "Nr.Telefon": "(475) 651-6147",
     "Oras": "Bridgeport, CT",
-    "Pariah": false
+    "Pariah": true
   },
   {
     "ID": 3,
@@ -53,7 +53,7 @@
     "Prenume": "Snyder",
     "Nr.Telefon": "(502) 947-8597",
     "Oras": "Louisville, KY",
-    "Pariah": false
+    "Pariah": true
   },
   {
     "ID": 8,
