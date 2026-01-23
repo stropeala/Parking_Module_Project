@@ -2,41 +2,57 @@
   {
     "ID": 1,
     "Date & Hour": {
-      "Intrare in parcare": "2026-01-23 13:07:45.830982",
-      "Iesire din parcare": "2026-01-23 13:07:47.831270",
-      "Timp": "2 ore"
+      "Intrare in parcare": "2026-01-23 15:36:15.804370",
+      "Iesire din parcare": "2026-01-23 15:36:16.804535",
+      "Timp": "1 ore"
+    }
+  },
+  {
+    "ID": 2,
+    "Date & Hour": {
+      "Intrare in parcare": "2026-01-23 15:36:16.805233",
+      "Iesire din parcare": "2026-01-23 15:36:19.805506",
+      "Timp": "3 ore"
     }
   },
   {
     "ID": 3,
     "Date & Hour": {
-      "Intrare in parcare": "2026-01-23 13:07:55.833061",
-      "Iesire din parcare": "2026-01-23 13:07:57.833279",
+      "Intrare in parcare": "2026-01-23 15:36:19.806171",
+      "Iesire din parcare": "2026-01-23 15:36:21.806385",
       "Timp": "2 ore"
     }
   },
   {
-    "ID": 4,
+    "ID": 5,
     "Date & Hour": {
-      "Intrare in parcare": "2026-01-23 13:07:57.833973",
-      "Iesire din parcare": "2026-01-23 13:08:00.834266",
-      "Timp": "3 ore"
+      "Intrare in parcare": "2026-01-23 15:36:29.809084",
+      "Iesire din parcare": "2026-01-23 15:36:30.809237",
+      "Timp": "1 ore"
     }
   },
   {
     "ID": 6,
     "Date & Hour": {
-      "Intrare in parcare": "2026-01-23 13:08:04.835944",
-      "Iesire din parcare": "2026-01-23 13:08:07.836239",
-      "Timp": "3 ore"
+      "Intrare in parcare": "2026-01-23 15:36:30.809973",
+      "Iesire din parcare": "2026-01-23 15:36:31.810131",
+      "Timp": "1 ore"
     }
   },
   {
     "ID": 9,
     "Date & Hour": {
-      "Intrare in parcare": "2026-01-23 13:08:20.839394",
-      "Iesire din parcare": "2026-01-23 13:08:21.839972",
+      "Intrare in parcare": "2026-01-23 15:36:45.813583",
+      "Iesire din parcare": "2026-01-23 15:36:46.813745",
       "Timp": "1 ore"
+    }
+  },
+  {
+    "ID": 10,
+    "Date & Hour": {
+      "Intrare in parcare": "2026-01-23 15:36:46.814607",
+      "Iesire din parcare": "2026-01-23 15:36:49.814891",
+      "Timp": "3 ore"
     }
   }
 ]
