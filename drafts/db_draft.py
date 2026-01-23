@@ -22,9 +22,7 @@ def db_draft(filepath, id):
     }
 
     db_start_dict = client_db | client_db_dict_start
-
     with open(db_filepath, "w") as file:
-        # indent=4 for better farmat
         json.dump(db_start_dict, file, indent=4)
 
     ore = random.randint(1, 10)
@@ -53,7 +51,6 @@ def db_draft(filepath, id):
 
         client_db_u2hours.append(client_db_dict_u2hours)
         with open(db_filepath_u2hours, "w") as file:
-            # indent=4 for better farmat
             json.dump(client_db_u2hours, file, indent=4)
 
         db_filepath = f"{pathlib.Path(filepath).parent.resolve()}/client_timers_draft/client_id{id}_timer_draft.json"
@@ -63,7 +60,6 @@ def db_draft(filepath, id):
         client_db["Date & Hour"]["Iesire din parcare"] = str(iesire)
         client_db["Date & Hour"]["Timp"] = f"{ore} ore"
         with open(db_filepath, "w") as file:
-            # indent=4 for better farmat
             json.dump(client_db, file, indent=4)
 
     elif 3 < ore < 7:
@@ -91,7 +87,6 @@ def db_draft(filepath, id):
 
         client_db_2hours.append(client_db_dict_2hours)
         with open(db_filepath_2hours, "w") as file:
-            # indent=4 for better farmat
             json.dump(client_db_2hours, file, indent=4)
 
         db_filepath = f"{pathlib.Path(filepath).parent.resolve()}/client_timers_draft/client_id{id}_timer_draft.json"
@@ -101,7 +96,6 @@ def db_draft(filepath, id):
         client_db["Date & Hour"]["Iesire din parcare"] = str(iesire)
         client_db["Date & Hour"]["Timp"] = f"{ore} ore"
         with open(db_filepath, "w") as file:
-            # indent=4 for better farmat
             json.dump(client_db, file, indent=4)
 
     elif 7 <= ore:
@@ -129,7 +123,6 @@ def db_draft(filepath, id):
 
         client_db_3days.append(client_db_dict_3days)
         with open(db_filepath_3days, "w") as file:
-            # indent=4 for better farmat
             json.dump(client_db_3days, file, indent=4)
 
         db_filepath = f"{pathlib.Path(filepath).parent.resolve()}/client_timers_draft/client_id{id}_timer_draft.json"
@@ -139,7 +132,6 @@ def db_draft(filepath, id):
         client_db["Date & Hour"]["Iesire din parcare"] = str(iesire)
         client_db["Date & Hour"]["Timp"] = f"{ore} ore"
         with open(db_filepath, "w") as file:
-            # indent=4 for better farmat
             json.dump(client_db, file, indent=4)
 
     else:
@@ -155,5 +147,4 @@ def db_draft(filepath, id):
         client_db["Date & Hour"]["Iesire din parcare"] = str(datetime.datetime.now())
         client_db["Date & Hour"]["Timp"] = f"{ore} ore"
         with open(db_filepath, "w") as file:
-            # indent=4 for better farmat
             json.dump(client_db, file, indent=4)
