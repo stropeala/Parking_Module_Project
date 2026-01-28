@@ -207,25 +207,4 @@ marimo/_lsp/
 __marimo__/
 
 .zed/
-data/client_timers/client_id11_timer.json
-data/client_timers/client_id12_timer.json
-data/client_timers/client_id13_timer.json
-data/client_timers/client_id14_timer.json
-data/client_timers/client_id15_timer.json
-data/client_timers/client_id16_timer.json
-data/client_timers/client_id17_timer.json
-data/client_timers/client_id18_timer.json
-data/client_timers/client_id19_timer.json
-data/client_timers/client_id20_timer.json
-data/client_timers/client_timers.json
-data/clients.json
-data/clients_pariah_true.json
-data/clients_timer_above_2hours.json
-data/clients_timer_above_3days.json
-data/clients_timer_under_2hours.json
-data/client_timers/client_timers.json
-data/clients.json
-data/clients_pariah_true.json
-data/clients_timer_above_2hours.json
-data/clients_timer_above_3days.json
-data/clients_timer_under_2hours.json
+data/
