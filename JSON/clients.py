@@ -30,7 +30,8 @@ def clients(filepath, nume, prenume, telefon, oras, pariah=False):
 
     # We add the new client dict to the all_clients list
     all_clients.append(client)
-    # We open the json in write mode and dump the all_clients list containig the dicts to a json
+    # We open the json in write mode
+    # and dump the all_clients list containig the dicts to a json
     with open(filepath, "w") as file:
         # indent=4 for better format
         json.dump(all_clients, file, indent=4)
@@ -47,7 +48,8 @@ def clients(filepath, nume, prenume, telefon, oras, pariah=False):
         client_db2 = json.load(file)
 
     # We make a for loop for each dict in the list
-    # to check the timer and change tha pariah value if its over the "3 days" threshold
+    # to check the timer and change tha pariah value
+    # if its over the "3 days" threshold
     ids = list(range(len(all_clients)))
     for i in ids:
         timp_str = client_db2[i]["Date & Hour"]["Timp"]

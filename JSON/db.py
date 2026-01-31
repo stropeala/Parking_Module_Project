@@ -1,10 +1,3 @@
-import datetime
-import json
-import os
-import pathlib
-import random
-import time
-
 """
 With this func we aim to sort all the date we have in separate jsons:
     - a separate json for each client with their id and time inside the parking lot
@@ -13,6 +6,13 @@ With this func we aim to sort all the date we have in separate jsons:
     - a json with the clients that stayed over 2 hours parked
     - a json wioth the clients hat stayed 3 days or more parked
 """
+
+import datetime
+import json
+import os
+import pathlib
+import random
+import time
 
 
 # We create a func that stores the timetable data for each client
