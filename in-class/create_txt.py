@@ -1,7 +1,6 @@
 import datetime
 import os
 import random
-from time import sleep
 
 
 def create_clients_and_db(
@@ -46,26 +45,14 @@ def db(filepath_db: str, id: int) -> None:
     else:
         existing_clients_db = ""
 
-    # "entry" is the time when the clients enter the car park.
-    entry = datetime.datetime.now()
+    exit = client_exit(year=2026, month=2)
 
-    # Hours spent in the car park.
-    hours = random.randint(1, 72)
+    entry = client_entry(year=2026, month=2)
 
-    # Timer which calculates the time spent at the car park in seconds.
-    t = hours
-    while t:
-        sleep(1)
-        t -= 1
-
-    # Time client leaves.
-    exit = datetime.datetime.now()
-
-    # The time is calculated as the exit time minus the entry time.
     time = exit - entry
 
     # String from which we read data.
-    new_client_db = f"{id}, {str(entry)}, {str(exit)}, {str(time)}\n"
+    new_client_db = f"{id}, {entry}, {exit}, {time}\n"
 
     # "All clients db" is the existing database plus the new database
     all_clients_db = existing_clients_db + new_client_db
@@ -73,6 +60,32 @@ def db(filepath_db: str, id: int) -> None:
     with open(filepath_db, "w") as file:
         # Writes to "all clients DB"
         file.write(all_clients_db)
+
+
+def client_exit(year=2026, month=2):
+
+    day = random.randint(3, 4)
+    hour = random.randint(0, 12)
+    minute = 0
+    second = 0
+
+    exit = datetime.datetime(year, month, day, hour, minute, second)
+
+    return exit
+
+
+def client_entry(year=2026, month=2):
+
+    entry = datetime.datetime(
+        year,
+        month,
+        day=random.randint(1, 2),
+        hour=random.randint(0, 23),
+        minute=random.randint(0, 59),
+        second=random.randint(0, 59),
+    )
+
+    return entry
 
 
 if __name__ == "__main__":
