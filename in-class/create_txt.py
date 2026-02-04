@@ -5,8 +5,8 @@ from time import sleep
 
 
 def create_clients_and_db(
-    filepath_clients,
-    filepath_db,
+    filepath_clients: str,
+    filepath_db: str,
     nume: str,
     prenume: str,
     telefon: int,
@@ -31,7 +31,7 @@ def create_clients_and_db(
     db(filepath_db, id)
 
 
-def db(filepath_db, id) -> None:
+def db(filepath_db: str, id: int) -> None:
     if os.path.isfile(filepath_db):
         with open(filepath_db, "r") as file:
             existing_clients_db = file.read()
