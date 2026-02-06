@@ -3,7 +3,7 @@ import os
 import random
 
 
-def create_clients_and_db(
+def create_clients_and_db_txt(
     filepath_clients: str,
     filepath_db: str,
     nume: str,
@@ -86,8 +86,8 @@ def client_entry(year=2026, month=2):
 
 
 if __name__ == "__main__":
-    filepath_clients = "in-class/data/clients.txt"
-    filepath_db = "in-class/data/db.txt"
+    filepath_clients = "in-class/data/txt/clients.txt"
+    filepath_db = "in-class/data/txt/db.txt"
 
     clients = {
         1: ("Lynn", "Newton", 12065557341, "SeattleUSA"),
@@ -193,4 +193,6 @@ if __name__ == "__main__":
     }
     # Data added to the string.
     for first, last, phone, city in clients.values():
-        create_clients_and_db(filepath_clients, filepath_db, first, last, phone, city)
+        create_clients_and_db_txt(
+            filepath_clients, filepath_db, first, last, phone, city
+        )
